@@ -1,0 +1,11 @@
+@startuml
+abstract class "Repository`1"<TEntity> {
+    + Repository(context:DataContext)
+    + <<virtual>> <<async>> CreateAsync(entity:TEntity) : Task<TEntity>
+    + <<virtual>> <<async>> GetAsync(predicate:Expression<Func<TEntity, bool>>) : Task<TEntity>
+    + <<virtual>> <<async>> GetAllAsync() : Task<IEnumerable<TEntity>>
+    + <<virtual>> <<async>> UpdateAsync(entity:TEntity) : Task<TEntity>
+    + <<virtual>> <<async>> DeleteAsync(id:Guid) : Task
+}
+"Repository`1" --> "_context" DataContext
+@enduml

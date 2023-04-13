@@ -1,0 +1,7 @@
+@startuml
+class ArticleFactory {
+    + {static} CreateArticleEntity() : ArticleEntity
+    + {static} CreateArticleRequest() : ArticleRequest
+    + {static} CreateArticleRespons() : ArticleResponse
+}
+@enduml

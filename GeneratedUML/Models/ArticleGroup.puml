@@ -1,0 +1,9 @@
+@startuml
+class ArticleGroup {
+    + <<virtual>> Blog : string <<get>> <<set>>
+    + <<virtual>> News : string <<get>> <<set>>
+    + <<virtual>> Product : string <<get>> <<set>>
+}
+Article <|-- ArticleGroup
+IArticle <|-- ArticleGroup
+@enduml

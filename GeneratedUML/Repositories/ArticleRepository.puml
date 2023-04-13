@@ -1,0 +1,8 @@
+@startuml
+class ArticleRepository {
+    + ArticleRepository(context:DataContext)
+}
+class "Repository`1"<T> {
+}
+"Repository`1" "<ArticleEntity>" <|-- ArticleRepository
+@enduml

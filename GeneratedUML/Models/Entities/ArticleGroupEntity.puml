@@ -1,0 +1,6 @@
+@startuml
+class ArticleGroupEntity {
+    + Id : int <<get>> <<set>>
+}
+ArticleGroup <|-- ArticleGroupEntity
+@enduml

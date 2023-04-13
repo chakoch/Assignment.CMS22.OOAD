@@ -1,0 +1,19 @@
+@startuml
+!include .\\Program.puml
+!include .\\Contexts\DataContext.puml
+!include .\\Controllers\ArticlesController.puml
+!include .\\Factories\ArticleFactory.puml
+!include .\\Interfaces\IArticle.puml
+!include .\\Models\Article.puml
+!include .\\Models\ArticleGroup.puml
+!include .\\Repositories\ArticleRepository.puml
+!include .\\Repositories\Repository.puml
+!include .\\Models\DTOs\ArticleRequest.puml
+!include .\\Models\DTOs\ArticleResponse.puml
+!include .\\Models\Entities\ArticleEntity.puml
+!include .\\Models\Entities\ArticleGroupEntity.puml
+!include .\\obj\Debug\net7.0\.NETCoreApp,Version=v7.0.AssemblyAttributes.puml
+!include .\\obj\Debug\net7.0\Assignment.CMS22.OOAD.AssemblyInfo.puml
+!include .\\obj\Debug\net7.0\Assignment.CMS22.OOAD.GlobalUsings.g.puml
+!include .\\obj\Debug\net7.0\Assignment.CMS22.OOAD.MvcApplicationPartsAssemblyInfo.puml
+@enduml

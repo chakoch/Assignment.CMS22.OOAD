@@ -1,0 +1,5 @@
+@startuml
+class ArticleRequest {
+}
+Article <|-- ArticleRequest
+@enduml

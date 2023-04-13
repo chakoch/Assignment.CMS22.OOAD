@@ -1,0 +1,6 @@
+@startuml
+class ArticleEntity {
+}
+Article <|-- ArticleEntity
+ArticleEntity --> "Id" Guid
+@enduml

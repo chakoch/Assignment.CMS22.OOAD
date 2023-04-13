@@ -1,0 +1,8 @@
+@startuml
+class Article {
+    + Title : string <<get>> <<set>>
+    + Content : string <<get>> <<set>>
+    + Author : string <<get>> <<set>>
+}
+IArticle <|-- Article
+@enduml
